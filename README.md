@@ -9,9 +9,9 @@
 <li>Start Spring Boot App
 <ul>
 <li>Via Spring IDE, open 'RestServiceApplication.java', press 'Alt+Shift+X, B', to start 'Spring Boot App'</li>
-<li>Via browser, type 'http://localhost:8080/greeting', to test</li>
+<li>Via browser, type 'http://localhost:8090/greeting', to test</li>
 <kbd><img src="Pic1.PNG" width="500" /></kbd><br/>
-<li>Via browser, type 'http://localhost:8080/greeting?name=User1', to test</li>
+<li>Via browser, type 'http://localhost:8090/greeting?name=User1', to test</li>
 <kbd><img src="Pic2.PNG" width="500" /></kbd><br/>
 </ul>
 </li>
