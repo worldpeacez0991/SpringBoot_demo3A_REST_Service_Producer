@@ -1,4 +1,4 @@
-### Spring Boot Demo 3 Rest Service Example
+### Spring Boot Demo 3A Rest Service Producer
 
 **Steps:**
 <ol>
@@ -13,6 +13,11 @@
 <kbd><img src="Pic1.PNG" width="500" /></kbd><br/>
 <li>Via browser, type 'http://localhost:8090/greeting?name=User1', to test</li>
 <kbd><img src="Pic2.PNG" width="500" /></kbd><br/>
+
+<li>You may notice that port 8090 is used and not 8080, why?<br/>Because we need to differentiate between Producer and Consumer project with different ports.<br/>In next project, Consumer will call the Producer with this unique port number.</li>
+
+<kbd><img src="Pic2B.PNG" width="500" /></kbd><br/>
+
 </ul>
 </li>
 
